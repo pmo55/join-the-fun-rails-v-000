@@ -1,7 +1,7 @@
 class AddKeyToRides < ActiveRecord::Migration
   def change
     
-    add_column :rides do |t|
+    add_column :rides, :rides_id 
       
   end
 end
